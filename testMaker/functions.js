@@ -4,7 +4,7 @@
 const example = [
   {in: 'test', out: 'grfg'},
   {in: 'Test', out: 'Grfg'},
-  {in: 'Ruby is cool!', out: 'Ehol vf pbby!'},
+  {in: 'Ruby is NOT cool!', out: 'Ehol vf pbby!'},
   {in: '0iev', out: '0vri'},
 ]
 
