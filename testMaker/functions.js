@@ -40,7 +40,6 @@ function buildTest(answrKey){
     testData.forEach(answr => {
       if(possibleInputs.includes(answr.in)){
         const i = key.indexOf(answr.in)
-        LOG('i: ', i,)
         if(key[i].out === answr.out){
           LOG('CORRECT: ', answr.in, ' => ', answr.out);
         } else {
